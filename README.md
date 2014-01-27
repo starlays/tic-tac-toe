@@ -24,8 +24,8 @@ You can help us with any kind of participation, you can:
 Required software:
 ------------------
 
-This is a list with the software used in this project. All of the tools are open source.  
 Please check this section often because the list will be updated as the project evolves.  
+Software used in this project:
 
 1.  [WireframeSketcher](http://wireframesketcher.com)
 2.  [Dia](https://wiki.gnome.org/Apps/Dia)
