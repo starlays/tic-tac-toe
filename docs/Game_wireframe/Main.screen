@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="48" y="32" width="1001" height="737" text="Firefox&#xA;http://&lt;server_name>/tic-tac-toe/" measuredWidth="1001" measuredHeight="737"/>
+  <widgets xsi:type="model:Button" id="2" x="496" y="408" width="87" text="OK" measuredWidth="87" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="456" y="376" width="177" text="name here" measuredWidth="177" measuredHeight="23" alpha="253">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="360" y="376" text="Player name:" measuredWidth="83" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

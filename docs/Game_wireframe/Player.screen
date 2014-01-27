@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="48" y="32" width="1001" height="737" text="Firefox&#xA;http://&lt;server_name>/tic-tac-toe/" measuredWidth="1001" measuredHeight="737"/>
+  <widgets xsi:type="model:Button" id="2" x="496" y="472" width="87" text="OK" measuredWidth="87" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="488" y="288" text="Available games:" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="8" x="496" y="320" width="87" text="Game one&#xA;Game tow&#xA;Game three&#xA;.&#xA;.&#xA;." measuredWidth="87" measuredHeight="130">
+    <font/>
+    <items x="0" y="2" width="87" height="21" text="Game one"/>
+    <items x="0" y="23" width="87" height="21" text="Game tow"/>
+    <items x="0" y="44" width="87" height="21" text="Game three"/>
+    <items x="0" y="65" width="87" height="21" text="."/>
+    <items x="0" y="86" width="87" height="21" text="."/>
+    <items x="0" y="107" width="87" height="21" text="."/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

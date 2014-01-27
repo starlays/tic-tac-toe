@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="48" y="32" width="1001" height="737" text="Firefox&#xA;http://&lt;server_name>/tic-tac-toe/" measuredWidth="1001" measuredHeight="737"/>
+  <widgets xsi:type="model:Label" id="7" x="832" y="224" text="Your score:" measuredWidth="70" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="909" y="224" text="&lt;value>" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="797" y="246" text="Opponent score:" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="909" y="246" text="&lt;value>" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="472" y="224" text="You are playing with:" measuredWidth="130" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="601" y="224" text="&lt;value>" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="14" x="496" y="192" text="Leave game" measuredWidth="93" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="144" y="246" text="Available games:" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="17" x="152" y="280" width="87" text="Game one&#xA;Game tow&#xA;Game three&#xA;.&#xA;.&#xA;." measuredWidth="87" measuredHeight="130">
+    <font/>
+    <items x="0" y="2" width="87" height="21" text="Game one"/>
+    <items x="0" y="23" width="87" height="21" text="Game tow"/>
+    <items x="0" y="44" width="87" height="21" text="Game three"/>
+    <items x="0" y="65" width="87" height="21" text="."/>
+    <items x="0" y="86" width="87" height="21" text="."/>
+    <items x="0" y="107" width="87" height="21" text="."/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="18" x="384" y="268" width="350" height="350" measuredWidth="350" measuredHeight="350"/>
+  <widgets xsi:type="model:Panel" id="19" x="384" y="268" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="20" x="499" y="268" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="21" x="614" y="268" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="22" x="614" y="383" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="23" x="499" y="385" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="24" x="384" y="385" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="25" x="384" y="498" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="26" x="499" y="498" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <widgets xsi:type="model:Panel" id="27" x="614" y="498" width="116" height="116" measuredWidth="116" measuredHeight="116"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
