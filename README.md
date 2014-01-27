@@ -1,4 +1,31 @@
-tic-tac-toe
-===========
+*tic-tac-toe Game*
+==================
 
-PHP and MariaDB tic-tac-toe game
+PHP and MariaDB tic-tac-toe game.
+
+The project was started for learning purpose, so if you want to learn or want  
+to share some informations or little guidance to the participants feel free to  
+help. The whole idea of the game will be built around PHP OOP concepts and  
+pattern designs embracing TDD.  
+
+If you like the project and want to participate please read the
+[docs](https://github.com/starlays/tic-tac-toe/tree/master/docs) so you can understand  
+how we function.  
+
+How to contribute:
+-------------------
+
+You can help us with any kind of participation, you can:  
+
+*   report bug/s in the project issues section  
+*   bring improvements to the docs or game code  
+*   submit new code to the developing branch  
+
+Required software:
+------------------
+
+This is a list with the software used in this project. All of the tools are open source.  
+Please check this section often because the list will be updated as the project evolves.  
+
+1.  [WireframeSketcher](http://wireframesketcher.com)
+2.  [Dia](https://wiki.gnome.org/Apps/Dia)
