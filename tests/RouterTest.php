@@ -1,5 +1,5 @@
 <?php
-class RouterTest.php extends PHPUnit_Framework_TestCase
+class RouterTest extends PHPUnit_Framework_TestCase
 {
     public function testGetRoute()
     {
