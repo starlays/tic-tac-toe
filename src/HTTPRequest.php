@@ -32,15 +32,15 @@
 namespace tictactoe;
 
 /**
- * Route
+ * HTTPRequest
  * @package tic-tac-toe
  */
-class Route
+class HTTPRequest
 {
     /**
-     * @var array route holder
+     * @var array processed HTTP request holder
      */
-    protected $route = array();
+    protected $processReq = array ();
 
     /**
      * @var string controller name holder
@@ -61,18 +61,10 @@ class Route
      * Process the request URI and extract the /controller/method/parameters
      *
      * @param  string              $requestURI  The HTTP request
+     * @return array               $processReq  The processed HTTP request
      * @throws \RuntimeException                If no URI supplied
      */
     public function processURI($requestURI)
-    {
-    }
-
-    /**
-     * Get the route
-     *
-     * @return array               $route       The route holder
-     */
-    public function getRoute()
     {
     }
 }
