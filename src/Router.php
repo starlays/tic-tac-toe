@@ -38,30 +38,15 @@ namespace tictactoe;
 class Router
 {
     /**
-     * @var obj $request type HTTPRequest
+     * @var array holder for the predifined routes stack
      */
-    protected $request;
-
-    /**
-     * @var string controller name holder
-     */
-    protected $controller  = NULL;
-
-    /**
-     * @var string action name holder
-     */
-    protected $action      = NULL;
-
-    /**
-     * @var array parameters holder
-     */
-    protected $parameters  = array();
-
+    protected $routes = array();
+    
     /**
      * Match the request with named Routes
      *
-     * @param \tictactoe\Route    predefined routes
-     *
+     * @param $routes the predefined array stack
+     * @param \tictactoe\HTTPRequest object
      * @throws \RuntimeException  in case of unexpected error
      */
     public function MatchRoute(HTTPRequest $request)
@@ -70,10 +55,11 @@ class Router
 
     /**
      * Dispatch the request
-     *
-     * TODO: Think about the relation between Dispatch, Route, HTTP request
+     * 
+     * @param \tictactoe\HTTPRequest object
+     * @throws \RuntimeException in case of error
      */
-    public function Dispatch()
+    protected function Dispatch()
     {
     }
 }
