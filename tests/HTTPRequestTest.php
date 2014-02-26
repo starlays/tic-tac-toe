@@ -1,5 +1,8 @@
 <?php
-class HTTPRequest extends PHPUnit_Framework_TestCase
+namespace HTTPRequestTest;
+require_once "../src/HTTPRequest.php";
+
+class HTTPRequest extends \PHPUnit_Framework_TestCase
 {
     public function testProcessURI()
     {
