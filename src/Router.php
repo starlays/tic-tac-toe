@@ -49,8 +49,9 @@ class Router
      * @param \tictactoe\HTTPRequest object
      * @throws \RuntimeException  in case of unexpected error
      */
-    public function MatchRoute(HTTPRequest $request, $routes = array());
+    public function MatchRoute(HTTPRequest $request, $routes = array())
     {
+        //return $this;
     }
 
     /**
