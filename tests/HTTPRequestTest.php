@@ -9,7 +9,15 @@ class HTTPRequest extends \PHPUnit_Framework_TestCase
         $httpRequest = new \tictactoe\HTTPRequest();
         $result = $httpRequest->processURI('http://example.com/foo?bar=baz');
 
-        $this->assertNotEmpty($result);
+        $this->assertEquals($httpRequest, $result);
+    }
+
+    public function testGetRequestedRoute()
+    {
+        $httpRequest = new \tictactoe\HTTPRequest();
+        $route = $httpRequest->getReqRoute();
+
+        $this->assertEquals(3, count($route));
     }
 
     /**

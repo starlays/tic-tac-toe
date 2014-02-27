@@ -40,7 +40,7 @@ class HTTPRequest
     /**
      * @var array processed HTTP request holder
      */
-    protected $processReq = array ();
+    protected $processedReq= array ();
 
     /**
      * @var string controller name holder
@@ -60,11 +60,22 @@ class HTTPRequest
     /**
      * Process the request URI and extract the /controller/method/parameters
      *
-     * @param  string              $requestURI  The HTTP request
-     * @return array               $processReq  The processed HTTP request
-     * @throws \RuntimeException                If no URI supplied
+     * @param  string $requestURI  The HTTP request
+     * @return object HTTPRequest object instance 
+     * @throws \RuntimeException If no URI supplied
      */
     public function processURI($requestURI)
     {
+        //return $this;
+    }
+
+    /**
+     * Get the requested route
+     *
+     * @return array $processedReq
+     */
+    public function getReqRoute()
+    {
+        return $this->processedReq;
     }
 }
